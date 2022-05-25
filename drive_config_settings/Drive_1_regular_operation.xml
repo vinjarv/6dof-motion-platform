@@ -20,15 +20,4 @@
     <SubIndex>2</SubIndex>
     <Data>01</Data>
   </InitCmd>
-  <InitCmd>
-    <Transition>PS</Transition>
-    <Comment>CW from shaft - positive extends</Comment>
-    <Name>Motor Rotation Direction Selection</Name>
-    <Timeout>0</Timeout>
-    <OpCode>3</OpCode>
-    <Ccs>1</Ccs>
-    <Index>12288</Index>
-    <SubIndex>1</SubIndex>
-    <Data>00000000</Data>
-  </InitCmd>
 </InitCmds>

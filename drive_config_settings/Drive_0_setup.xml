@@ -12,16 +12,6 @@
   </InitCmd>
   <InitCmd>
     <Transition>PS</Transition>
-    <Name>Command_1</Name>
-    <Timeout>0</Timeout>
-    <OpCode>3</OpCode>
-    <Ccs>1</Ccs>
-    <Index>8194</Index>
-    <SubIndex>2</SubIndex>
-    <Data>01</Data>
-  </InitCmd>
-  <InitCmd>
-    <Transition>PS</Transition>
     <Comment>Set once for 230V 1ph</Comment>
     <Name>Phase Loss Detection Enable</Name>
     <Timeout>0</Timeout>
@@ -95,5 +85,15 @@
     <Index>4112</Index>
     <SubIndex>1</SubIndex>
     <Data>73617665</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Name>Command_1</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>8194</Index>
+    <SubIndex>2</SubIndex>
+    <Data>01</Data>
   </InitCmd>
 </InitCmds>
