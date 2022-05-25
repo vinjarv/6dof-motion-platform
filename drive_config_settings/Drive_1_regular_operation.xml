@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<InitCmds>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Name>Command_0</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>24672</Index>
+    <SubIndex>0</SubIndex>
+    <Data>08</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Name>Command_1</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>8194</Index>
+    <SubIndex>2</SubIndex>
+    <Data>01</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Comment>CW from shaft - positive extends</Comment>
+    <Name>Motor Rotation Direction Selection</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>12288</Index>
+    <SubIndex>1</SubIndex>
+    <Data>00000000</Data>
+  </InitCmd>
+</InitCmds>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<InitCmds>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Name>Command_0</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>24672</Index>
+    <SubIndex>0</SubIndex>
+    <Data>08</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Name>Command_1</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>8194</Index>
+    <SubIndex>2</SubIndex>
+    <Data>01</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Comment>Set once for 230V 1ph</Comment>
+    <Name>Phase Loss Detection Enable</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>17184</Index>
+    <SubIndex>2</SubIndex>
+    <Data>00000000</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Comment>CW from shaft - positive extends</Comment>
+    <Name>Motor Rotation Direction Selection</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>12288</Index>
+    <SubIndex>1</SubIndex>
+    <Data>00000000</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Comment>Max torque for homing (in 0.1%)</Comment>
+    <Name>Positive Torque Limit Value</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>13104</Index>
+    <SubIndex>3</SubIndex>
+    <Data>F401</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Comment>Max torque for homing (in 0.1%)</Comment>
+    <Name>Negative Torque Limit Value</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>13104</Index>
+    <SubIndex>4</SubIndex>
+    <Data>F401</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Comment>Reset encoder position </Comment>
+    <Name>Absolute Encoder Setup</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>17680</Index>
+    <SubIndex>241</SubIndex>
+    <Data>6561646A</Data>
+  </InitCmd>
+  <InitCmd>
+    <Transition>PS</Transition>
+    <Name>Store Parameters</Name>
+    <Timeout>0</Timeout>
+    <OpCode>3</OpCode>
+    <Ccs>1</Ccs>
+    <Index>4112</Index>
+    <SubIndex>1</SubIndex>
+    <Data>73617665</Data>
+  </InitCmd>
+</InitCmds>
