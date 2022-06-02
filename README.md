@@ -1,4 +1,3 @@
 # 6dof-motion-platform
 
-Install device descriptions for drives: 
-https://assets.omron.eu/downloads/ddf/en/v3/r88d-1snxxx-ect_ethercat_esi_file_en.zip
+Project description (in Norwegian) can be found at https://www.ntnu.no/wiki/display/iss/6DOF+-+plattform

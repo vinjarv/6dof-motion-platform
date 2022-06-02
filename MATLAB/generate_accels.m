@@ -40,6 +40,7 @@ qdd = motion1w(qdd, 11*move_time, 12*move_time, t, [0 0 0 0 0 -ra]');
 
 figure(1)
 plot(t, f)
+grid()
 legend("Actuator 1", "Actuator 2", "Actuator 3", "Actuator 4", "Actuator 5", "Actuator 6");
 title("Actuator force")
 xlabel("Time (s)")
@@ -50,6 +51,7 @@ figure(2)
 %ballscrew_lead = 10e-3;
 %rpm = v/ballscrew_lead * 60
 plot(t, v)
+grid()
 legend("Actuator 1", "Actuator 2", "Actuator 3", "Actuator 4", "Actuator 5", "Actuator 6");
 title("Actuator velocity")
 xlabel("Time (s)")

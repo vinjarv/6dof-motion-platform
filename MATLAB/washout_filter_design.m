@@ -33,10 +33,10 @@ g_hp = tf(num, den)
 figure(1)
 step(g_hp)
 %% Add feedback to return to zero
-reg_k = 0.5;
+k_feedback = 0.5;
 
 int1 = tf([1],[1 0]);
-int2 = feedback(int1, reg_k);
+int2 = feedback(int1, k_feedback);
 
 int = int1 * int2;
 
@@ -62,13 +62,3 @@ step(g_disc)
 %% Load recorded data and run filter
 load gamedata
 sim("sim_with_dataset")
-
-
-% Save python accelerations - limiting is solved in UDP handling.
-% Compare with current regulator.
-% Add angular accelerations with same filter, different gain?.
-% LP filter for tilt coordination?
-% Sim with stplat class is possible, should be investigated further?
-% Improved GUI to validate game data etc.
-% Sim with game and Windows PLC
-
