@@ -1,2 +1,5 @@
 codesys-6dof-platform/*
 !codesys-6dof-platform/racing_sim.project
+MATLAB/slprj/*
+MATLAB/*.backup
+MATLAB/*.slxc
